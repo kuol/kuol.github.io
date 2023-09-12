@@ -1,5 +1,5 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Kuo
+description: Kuo Liu's personal page
 
 url: https://long-haul.netlify.app
 paginate_path: "blog/page:num/"
@@ -25,10 +25,10 @@ navigation:
       url: /contact
 
 social:
-    github: brianmaierjr
+    github: kuol
     twitter: brianmaierjr
     facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
+    email: liukuo99@gmail.com
     linkedin: brianmaierjr
 
 google_analytics: "UA-58263416-1"

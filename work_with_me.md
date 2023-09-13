@@ -3,15 +3,20 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="work_with_me">
-  <h1>Work With Me</h1>
-  <ul class="posts noList">
-    {%- for post in site.posts -%}
-      <li>
-      	<span class="date">{{ post.date | date_to_string }}</span>
-      	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      	<p class="description">{%- if post.description -%}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{%- else -%}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{%- endif -%}</p>
-      </li>
-    {%- endfor -%}
-  </ul>
-</div>
+
+# Work With Me
+### Data Science Consulting
+Representative engagements:
+- E-commerce payment fraud detection
+- E-commerce conversion
+- Sales conversion
+- Machine learning strategy for credit union
+- Big data strategy for a computer hardwared manufacture
+
+### Career Coaching, Speaking
+- Landing a job in tech
+- Career change into Data Science
+- Resume review
+- Mock interviews
+- Handling difficult work situation
+- Compensation, job title negotiation

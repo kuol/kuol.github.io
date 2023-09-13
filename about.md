@@ -5,20 +5,12 @@ title: Meet Kuo
 
 <div class="post">
 	<h1 class="pageTitle">Meet Kuo</h1>
-	<img src="{{ '/assets/img/kuo.jpg' }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with the <a href="https://github.com/jekyll/jekyll-sass-converter">Jekyll SASS convertor</a> plugin</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+	<div align="center">
+		<img src="{{ '/assets/img/kuo.jpg' }}" alt="" width="400">
+	</div>
+	<!-- <p class="intro">Data Science leader with .</p> -->
+	<p>Hi, I'm Kuo. I obtained my PhD in Applied Mathematics in 2012 and I have been in the field of Data Science ever since. I have led Software Engineering and Data Science teams in a public company, pre-IPO companies and Series B, Series C tech startups. My industry experience spans from Enterprise Analytics Software, Payment to HR software. Currently, I'm the Director of Artificial Intelligence at <a href="https://karat.com/">Karat</a></p>
+	<p>I'm also a working mom. I had to take a career break in 2020. I have many hilarious (almost unbelievable) parenting stories to share.</p>
+	<p>And, I'm an immigrant. I have developed a lot of understanding and gratitude while breaking glass ceilings and advancing my career. </p>
+	<p>Finally, I'm a life-long learner. I am open to all possibilities in life. I believe we have to look inward to find strenghs and happiness.</p>
 </div>

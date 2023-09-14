@@ -3,20 +3,104 @@ layout: default
 title: Contact Kuo
 ---
 
-<div id="contact">
-  <h1 class="pageTitle">Contact Me</h1>
-  <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
+<div class="post">
+  <p class="intro">Reach out below, if you are interested in working with me either on career coaching, AI strategy or Data Science consulting projects.</p>
+
+
+  <div class="contactMethods-links">
+    <ul class="noList">
+      {%- if site.social.twitter -%}
+      <li>
+        <a
+          href="https://twitter.com/{{ site.social.twitter }}"
+          target="_blank"
+        >
+          <svg
+            id="twitter"
+            class="custom-icon"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 100 100"
+            style="height: 100px; width: 100px;"
+          >
+            <circle
+              class="outer-shape"
+              cx="50"
+              cy="50"
+              r="48"
+              style="opacity: 1;"
+            ></circle>
+            <path
+              class="inner-shape"
+              style="opacity: 1;"
+              transform="translate(25,25) scale(0.5)"
+              d="M99.001,19.428c-3.606,1.608-7.48,2.695-11.547,3.184c4.15-2.503,7.338-6.466,8.841-11.189 c-3.885,2.318-8.187,4-12.768,4.908c-3.667-3.931-8.893-6.387-14.676-6.387c-11.104,0-20.107,9.054-20.107,20.223 c0,1.585,0.177,3.128,0.52,4.609c-16.71-0.845-31.525-8.895-41.442-21.131C6.092,16.633,5.1,20.107,5.1,23.813 c0,7.017,3.55,13.208,8.945,16.834c-3.296-0.104-6.397-1.014-9.106-2.529c-0.002,0.085-0.002,0.17-0.002,0.255 c0,9.799,6.931,17.972,16.129,19.831c-1.688,0.463-3.463,0.71-5.297,0.71c-1.296,0-2.555-0.127-3.783-0.363 c2.559,8.034,9.984,13.882,18.782,14.045c-6.881,5.424-15.551,8.657-24.971,8.657c-1.623,0-3.223-0.096-4.796-0.282 c8.898,5.738,19.467,9.087,30.82,9.087c36.982,0,57.206-30.817,57.206-57.543c0-0.877-0.02-1.748-0.059-2.617 C92.896,27.045,96.305,23.482,99.001,19.428z"
+            ></path>
+          </svg>
+        </a>
+      </li>
+      {%- endif -%} {%- if site.social.linkedin -%}
+      <li>
+        <a
+          href="https://www.linkedin.com/in/{{ site.social.linkedin }}"
+          target="_blank"
+        >
+          <svg
+            id="linkedin"
+            xmlns="http://www.w3.org/2000/svg"
+            width="96"
+            height="96"
+            viewBox="0 0 96 96"
+            style="height: 100px; width: 100px;"
+          >
+            <g fill="none">
+              <circle
+                class="outer-shape"
+                cx="48"
+                cy="48"
+                r="48"
+                fill="#000"
+              />
+              <path
+                class="inner-shape"
+                fill="#FFF"
+                d="M10.2966071,46 L0.759821429,46 L0.759821429,15.2881537 L10.2966071,15.2881537 L10.2966071,46 Z M5.52308036,11.0987745 C2.47352679,11.0987745 1.17239551e-12,8.57282522 1.17239551e-12,5.52320357 C1.17239551e-12,2.47282245 2.47276734,-9.65449942e-13 5.52308036,-9.65449942e-13 C8.57339338,-9.65449942e-13 11.0461607,2.47282245 11.0461607,5.52320357 C11.0461607,8.57282522 8.57160714,11.0987745 5.52308036,11.0987745 Z M45.9897321,46 L36.4734821,46 L36.4734821,31.0496663 C36.4734821,27.4866403 36.4016071,22.9173419 31.5151339,22.9173419 C26.5567857,22.9173419 25.7969643,26.7884104 25.7969643,30.7929641 L25.7969643,46 L16.2704464,46 L16.2704464,15.2881537 L25.4170536,15.2881537 L25.4170536,19.4775329 L25.5505357,19.4775329 C26.82375,17.0645326 29.9338839,14.5180472 34.5739286,14.5180472 C44.2257143,14.5180472 46,20.8739927 46,29.1295341 L46,46 L45.9897321,46 Z"
+                transform="translate(25 25)"
+              />
+            </g>
+          </svg>
+        </a>
+      </li>
+      {%- endif -%} {%- if site.social.email -%}
+      <li>
+        <a href="mailto:{{ site.social.email }}" target="_blank">
+          <svg
+            id="mail"
+            class="custom-icon"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 100 100"
+            style="height: 100px; width: 100px;"
+          >
+            <circle
+              class="outer-shape"
+              cx="50"
+              cy="50"
+              r="48"
+              style="opacity: 1;"
+            ></circle>
+            <path
+              class="inner-shape"
+              style="opacity: 1;"
+              transform="translate(25,25) scale(0.5)"
+              d="M50,1C22.938,1,1,22.938,1,50s21.938,49,49,49s49-21.938,49-49S77.062,1,50,1z M25.5,25.5h49 c0.874,0,1.723,0.188,2.502,0.542L50,57.544L22.998,26.041C23.777,25.687,24.626,25.499,25.5,25.5L25.5,25.5z M19.375,68.375v-36.75 c0-0.128,0.005-0.256,0.014-0.383l17.96,20.953L19.587,69.958C19.448,69.447,19.376,68.916,19.375,68.375L19.375,68.375z M74.5,74.5 h-49c-0.541,0-1.072-0.073-1.583-0.212l17.429-17.429L50,66.956l8.653-10.096l17.429,17.429C75.572,74.427,75.041,74.5,74.5,74.5 L74.5,74.5z M80.625,68.375c0,0.541-0.073,1.072-0.211,1.583L62.652,52.195l17.96-20.953c0.008,0.127,0.014,0.255,0.014,0.383 L80.625,68.375L80.625,68.375z"
+            ></path>
+          </svg>
+        </a>
+      </li>
+      {%- endif -%}
+    </ul>
   </div>
-  <form action="http://formspree.io/your@mail.com" method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" class="full-width"><br>
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="_replyto" class="full-width"><br>
-    <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
-    <input type="submit" value="Send" class="button">
-  </form>
 </div>

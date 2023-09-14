@@ -8,7 +8,7 @@ title: Your New Jekyll Site
 I can help you, your team and your community to achieve your goals in following ways
 
 ### Career Coaching, Speaking, Workshop
-I have helped many people in my network in areas such as : 
+I have helped many people in my network in areas such as: 
 - career transition from academia (PhD, Postdoc) to industry, 
 - moving to Data Science from a different background, 
 - career planning for college and graduate students, 
@@ -29,7 +29,7 @@ I offer consulting for areas such as:
 - hiring data scientists, data analysts and machine learning engineers.
 
 ### Data Science Project Consulting
-I have hands-on experience in
+I have hands-on experience in:
 - E-commerce payment fraud detection
 - E-commerce conversion
 - Sales conversion

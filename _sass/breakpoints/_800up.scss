@@ -33,6 +33,12 @@ body {
 	padding: 0;
 }
 
+.containerAbout {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
 
 /***************
 HOMEPAGE STYLING
@@ -252,6 +258,23 @@ FOOTER STYLES
 	}
 }
 
+
+/***************
+ABOUT PAGE STYLING
+***************/
+.aboutContent {
+	max-width: 48%;
+	margin-right: 0;
+	float: right;
+}
+
+#about {
+	img {
+		max-width: 48%;
+		float: left;
+		margin-right: 5%;
+	}
+}
 
 /***************
 CONTACT PAGE STYLING

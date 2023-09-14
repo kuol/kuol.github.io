@@ -23,6 +23,8 @@ navigation:
       url: /index.html
     - title: Work With Me
       url: /work_with_me 
+    - title: Contact
+      url: /contact
 
 social:
     github: kuol

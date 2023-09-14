@@ -4,7 +4,7 @@ title: Contact Kuo
 ---
 
 <div class="post">
-  <p class="intro">Reach out below, if you are interested in working with me either on career coaching, AI strategy or Data Science consulting projects.</p>
+  <p class="intro">Feel free to reach out, I'm always happy to help.</p>
 
 
   <div class="contactMethods-links">
